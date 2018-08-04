@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body {
+	background-color: #bce7f4;
+}
+.main-heading {
+	color: blue;
+	margin: 30px;
+}
+.button {
+	margin: 10px;
+}
+.button a {
+	text-decoration: none;
+}
+p {
+	margin-bottom: 10px;
+}
+img {
+	margin: 15px;
+}

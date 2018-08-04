@@ -1,0 +1,16 @@
+//loginpage.pug
+
+doctype html
+html
+    head
+        title="Logowanie do Google"
+        style
+            include ../css/style.css
+    body
+        h1.main-heading Podaj swoje dane logowania do Google
+        img.image(src='https://pclab.pl/zdjecia/artykuly/pchunter/1/google.jpg')
+        p Login:
+            input(type="text")
+        p Hasło:
+            input(type="text")
+        a.button(href='/auth/google') Zaloguj się teraz
